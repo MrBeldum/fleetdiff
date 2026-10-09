@@ -83,7 +83,6 @@ func TestBackendPreservedAndSecretsNotCopied(t *testing.T) {
 	}
 }
 
-
 func TestTopKKeysRequireField(t *testing.T) {
 	safe := fixture(t, "safe")
 	for _, tc := range []struct {
